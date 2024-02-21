@@ -19,7 +19,8 @@ a{
     flex: 1;
     font-weight: bolder;
     font-size: 24px;
-    padding: 0 50px;
+    padding: 0 100px;
+    
    
 }
 
@@ -32,24 +33,35 @@ a{
 
 .hero{
     background-color: #1F2937;
-    padding: 0 50px;
+    padding: 0 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
 
 .hero-intro{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding: 5px;
 }
 
 .hero-subtext{
-    font-size: px;
+    font-size: 18px;
     color: #E5E7EB;
+    padding: 5px;
+    
+    
 }
 
 button{
     cursor: pointer;
     padding: 8px 30px;
     border-radius: 8px;
+    margin-top: 8px;
 }
 
 .signup{
@@ -59,4 +71,5 @@ button{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 16px;
+
 }
