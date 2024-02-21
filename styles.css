@@ -1,7 +1,9 @@
 body{
     display: flex;
-    
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
+
 
 a{
     text-decoration: none;
@@ -11,19 +13,50 @@ a{
 .header{
     background-color: #1F2937;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
     font-weight: bolder;
     font-size: 24px;
-    padding: 0 30px;
+    padding: 0 50px;
    
 }
+
 .links{
     display: flex;
     font-weight: 200;
     font-size: 16px;
     
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 0 50px;
+}
+
+.hero-intro{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext{
+    font-size: px;
+    color: #E5E7EB;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 30px;
+    border-radius: 8px;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid royalblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
