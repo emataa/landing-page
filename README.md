@@ -1,4 +1,4 @@
 # landing-page
 
 skeleton landing page made with html and css  
-fueled by odin
+fueled by the odin project
